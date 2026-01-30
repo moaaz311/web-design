@@ -1,0 +1,300 @@
+body{
+  background-color: var(--edge-grey-background);
+  margin: 0;
+  padding: 0;
+}
+.container{
+  position: sticky;
+  z-index: 1000;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+  height: 150px;
+  margin-top: 0%;
+  display: flex;
+  flex-direction: row;
+  background-color: #151523;
+  backdrop-filter: blur(100px);
+  justify-content: space-around;
+  color:#0070C6 !important;
+  gap:400px;
+  div{
+      display: flex;
+      flex-direction: row;
+      
+      ul{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          gap: 20px;
+          text-decoration: none;
+          color:#0070C6;
+          
+      }
+  }
+  h1{
+      color:#e36019;
+      display: inline-block;
+      text-shadow: 2px 2px 5px red;
+    font-family: "Sofia", sans-serif;
+      
+  }
+}
+
+
+a{
+  height: 30px;
+  width: fit-content;
+  padding: 10px;
+  text-decoration: none;
+  color:#d9e882e3;
+  font-size: 20px;
+  text-transform: capitalize;
+  border: 2px  #c63500;
+  border-radius: 80px;
+  transition: font-size 0.4s ease-in-out; 
+  
+}
+a:hover{
+
+font-size: 16px;
+color: rgb(232, 227, 227);
+background-image: linear-gradient(rgb(20, 20, 19),rgb(132, 77, 68));
+}
+.father{
+  position:relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding:0px;
+}
+.father div{
+height:80vh;
+border-radius: 50px;
+display: flex;
+flex-direction: column;
+flex: 1 1 calc(25% - 20px);
+border: 2px;
+border-style: solid;
+flex-wrap: wrap;
+align-items:flex-end;
+justify-content: center;
+margin: 5px;
+padding: 110;
+}
+#t1{
+background-image: linear-gradient(rgb(219, 184, 145),rgb(220, 65, 38));
+border: solid;
+justify-content:flex-end;
+align-items: center;
+height: 5%;
+width: 15%;
+position:absolute;
+margin: 10px;
+margin-top: 450px;
+margin-right: 70px;
+border-radius: 500px;
+border: none;
+}
+
+.block1 {
+  background-image: url(tracksuits/argantina.jpg);
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+
+.block2 {
+  background-image: url(tracksuits/arsenal.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.block3 {
+  background-image: url(tracksuits/bayran.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.block4 {
+  background-image: url(tracksuits/ebe9788daf361b81ef47853a63e75a9c.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.block5 {
+  background-image: url(tracksuits/atletco.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.block6{
+  background-image: url(tracksuits/liverpool.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.block7 {
+  background-image: url(tracksuits/manred.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.block8 {
+  background-image: url(tracksuits/marssial.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.block9{
+  background-image: url(tracksuits/mexcio.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.block10 {
+  background-image: url(tracksuits/paris.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.block11{
+  background-image: url(tracksuits/paris\ \(2\).jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.block12{
+  background-image: url(tracksuits/ebe9788daf361b81ef47853a63e75a9c.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.block13 {
+  background-image: url(tracksuits/bayran.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.block14 {
+  background-image: url(tracksuits/totenham.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.block15{
+  background-image: url(tracksuits/ac.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.block16{
+  background-image: url(tracksuits/chelse\ \(1\).jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.block17 {
+  background-image: url(tracksuits/colmbia.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.block18 {
+  background-image: url(tracksuits/germany.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.block19{
+  background-image: url(tracksuits/atletco.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.block20{
+  background-image: url(tracksuits/chelse.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.logo{
+  width: 100px;
+  height: 50px;
+background-size: contain;
+background-repeat: no-repeat;
+background-image: url(/tshirt.png);
+}
+.afterC{
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  display: block;
+  text-transform: uppercase;
+}
+
+.closing{
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  text-align: center;
+  align-items: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: #151523;
+  backdrop-filter: blur(100px);
+  a{
+       
+    color:#c66a00;
+    display: inline-block;
+  text-shadow: 2px 2px 5px red;
+  font-family: "Sofia", sans-serif;
+border: none;
+  }
+p{
+font-size: 35px;
+color:#c66a00;
+display: inline-block;
+text-shadow: 2px 2px 5px red;
+font-family: "Sofia", sans-serif;
+}
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .father div {
+        flex: 1 1 100%; /* Full width for each item */
+        margin: 5px;
+    }
+
+    .block1, .block2, .block3, .block4, .block5, .block6, .block7, .block8, .block9, .block10,
+    .block11, .block12, .block13, .block14, .block15, .block16, .block17, .block18, .block19, .block20 {
+        height: 150px;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .father div {
+        flex: 1 1 calc(50% - 20px); 
+        margin: 10px;
+    }
+}
+

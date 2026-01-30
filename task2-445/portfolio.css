@@ -1,0 +1,90 @@
+body{
+    width: 90%;
+    margin: auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header h1{
+    color: rgb(52, 25, 25);
+}
+svg{
+    width: 15em;
+    height: 3em;
+    color: orange;
+}
+.header p{
+    width: 40em;
+    text-align: center;
+}
+.works{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.works ul{
+    list-style: none;
+    display: flex ;
+    gap: 4em;
+}
+.works li{
+    padding: 0.6em;
+    border-radius: 2em;
+    cursor: pointer;
+    transition:all 0.3s ease-in-out;
+} 
+.works li:hover{
+    background-color: rgb(235, 213, 174);
+} 
+li.active{
+    background-color: rgb(233, 173, 7);
+    padding: 0.6em;
+    border-radius: 2em;
+    cursor: pointer;
+    transition:all 0.3s ease-in-out;
+}
+li.active:hover{
+    background-color: rgb(233, 173, 7);
+}
+.categors{
+    display: flex;
+    flex-direction: column;
+}
+
+.categors img{
+    width: 30em;
+    height: 25em;
+}
+.categors h3{
+    text-transform:uppercase;
+}
+.wep_design{
+    display: flex;
+    gap: 1em;
+}
+.web1, .web2 ,.graph1,.graph2{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+.graphics{
+    display: flex;
+    gap: 1em;
+}
+.last{
+    display: flex;
+    gap: 1em;
+}
+.motion ,.pranding{
+    
+     border: 1px solid red;
+    padding: 1em;
+}
+.filter{
+    display: none;
+}
